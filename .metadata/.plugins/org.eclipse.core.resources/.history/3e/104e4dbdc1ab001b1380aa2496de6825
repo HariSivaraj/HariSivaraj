@@ -1,0 +1,25 @@
+package PkgIDGroupID.ArtifactID;
+
+class OneClass {
+	int a=0;
+
+}
+
+class anotherCls {
+	static int justMethod()
+	{
+		OneClass m1 = new OneClass();
+		int b = m1.a;
+		return b;
+	}
+	
+	
+}
+
+class MyFirstClass {
+	public static void main (String args[]) {
+		anotherCls a1= new anotherCls();
+		a1.justMethod();
+		
+	}
+}

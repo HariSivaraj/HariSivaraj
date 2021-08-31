@@ -1,0 +1,11 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+
+public class LandingPage {
+	public WebDriver driver;
+	
+	
+	By.ByCssSelector("a[href*='sign_in']");
+
+}

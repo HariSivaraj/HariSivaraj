@@ -1,0 +1,20 @@
+package Acadamy;
+
+import java.io.IOException;
+
+import pageObjects.LandingPage;
+import pageObjects.LoginPage;
+
+public class validateTitle {
+	public void basePageNavigation(String mail, String passcode) throws IOException
+	{
+		driver = initializeDriver();
+		driver.get(prop.getProperty(url));
+		LandingPage lp = new LandingPage(driver);
+		LoginPage lp1 = new LoginPage(driver);
+		lp.getLogin().click();
+		lp1.getEmail().sendKeys(mail);
+		lp1.getPassword().sendKeys(passcode);		
+	}
+
+}

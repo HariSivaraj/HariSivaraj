@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter
+ name = "NameOfHVN"
+ value = "HVN">
+ </parameter>
+
+  <test thread-count="5" name="Folder01">
+    <classes>
+      <class name="Folder01.Class01"/>
+    </classes>
+  </test> 
+  
+  
+   <test name="Folder02">
+    <classes>
+      <class name="Folder02.Class02"/>
+      <class name="Folder02.Class01"/>
+    </classes>
+  </test> 
+  
+  
+  
+  
+  <!-- Test -->
+  
+  
+    
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+package PkgIDGroupID.ArtifactID;
+
+class OneClass {
+	int a=0;
+
+}
+
+class anotherCls {
+	OneClass m1 = new OneClass();
+	int b = m1.a;
+	
+}
+Class MyFirstClass {
+	public static void main (String args[]) {
+		
+	}
+}

@@ -1,0 +1,32 @@
+package Acadamy;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class base {
+	
+	public void initializeDriver() throws IOException {
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream("C:\\HVNSpace\\GitBucket2\\E2EProject\\src\\main\\java\\Acadamy\\data.properties");
+		prop.load(fis);
+		prop.getProperty("broser");
+		if (prop.getProperty("broser").contains("chrome")){
+	
+			System.setProperty("webdriver.chrome.driver", "C:\\HVNSpace\\JavaPractice\\Sl_SupportFiles\\chromedriver.exe");
+			WebDriver driver = new ChromeDriver();
+		} else if (prop.getProperty("broser").contains("fox")) {
+			System.setProperty("webdriver.chrome.driver", "C:\\HVNSpace\\JavaPractice\\Sl_SupportFiles\\geckodriver.exe");
+		}else if (prop.getProperty("broser").contains("IE")) {
+			System.setProperty("webdriver.chrome.driver", "\"C:\\HVNSpace\\JavaPractice\\Sl_SupportFiles\\IEDriverServer.exe");
+		}
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-25T08:23:00 IST" name="Suite" finished-at="2021-08-25T08:23:00 IST" duration-ms="110">
+    <groups>
+    </groups>
+    <test started-at="2021-08-25T08:23:00 IST" name="Test" finished-at="2021-08-25T08:23:00 IST" duration-ms="110">
+      <class name="PolicyBazar.AutoPolicy.AppTest">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:PolicyBazar.AutoPolicy.AppTest@1677d1]" started-at="2021-08-25T08:23:00 IST" name="shouldAnswerWithTrue" finished-at="2021-08-25T08:23:00 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- PolicyBazar.AutoPolicy.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

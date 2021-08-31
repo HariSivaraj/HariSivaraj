@@ -1,0 +1,12 @@
+package PkgIDGroupID.ArtifactID;
+
+class MyFirstClass {
+	int a=0;
+
+}
+
+class anotherCls {
+	MyFirstClass m1 = new MyFirstClass();
+	
+	int b = m1.a;
+}

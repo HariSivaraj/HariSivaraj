@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-25T11:25:40 IST" name="Suite" finished-at="2021-08-25T11:25:40 IST" duration-ms="64">
+    <groups>
+    </groups>
+    <test started-at="2021-08-25T11:25:40 IST" name="Test" finished-at="2021-08-25T11:25:40 IST" duration-ms="64">
+      <class name="PolicyBazar.AutoPolicy.AppTest">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:PolicyBazar.AutoPolicy.AppTest@3b2da18f]" started-at="2021-08-25T11:25:40 IST" name="shouldAnswerWithTrue" finished-at="2021-08-25T11:25:40 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- PolicyBazar.AutoPolicy.AppTest -->
+      <class name="PolicyBazar.AutoPolicy.PolicyTest">
+        <test-method signature="manner()[pri:0, instance:PolicyBazar.AutoPolicy.PolicyTest@3c153a1]" started-at="2021-08-25T11:25:40 IST" name="manner" finished-at="2021-08-25T11:25:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manner -->
+      </class> <!-- PolicyBazar.AutoPolicy.PolicyTest -->
+      <class name="PolicyBazar.AutoPolicy.Hello">
+        <test-method signature="printaMe()[pri:0, instance:PolicyBazar.AutoPolicy.Hello@b62fe6d]" started-at="2021-08-25T11:25:40 IST" name="printaMe" finished-at="2021-08-25T11:25:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printaMe -->
+      </class> <!-- PolicyBazar.AutoPolicy.Hello -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
