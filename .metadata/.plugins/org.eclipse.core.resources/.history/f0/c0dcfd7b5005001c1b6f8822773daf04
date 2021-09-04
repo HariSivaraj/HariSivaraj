@@ -1,9 +1,0 @@
-package PolicyBazar.AutoPolicy;
-
-public class Hello {
-	@Test
-	public void printaMe() {
-		System.out.println("it wont run");
-	}
-
-}

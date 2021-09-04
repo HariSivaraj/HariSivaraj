@@ -1,9 +1,0 @@
-package pageObjects;
-
-import org.openqa.selenium.By;
-
-public class LandingPage {
-	
-	By.ByCssSelector("a[href*='sign_in']");
-
-}
